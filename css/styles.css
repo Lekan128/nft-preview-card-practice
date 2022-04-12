@@ -1,0 +1,113 @@
+body{
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  text-align: left;
+  font: 'Outfit', sans-serif;
+}
+
+h1{
+  color: white;
+  font-size: 0.9rem;
+  margin: 20px 10px;
+}
+
+h1:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+p{
+  font-size: 0.78rem;
+}
+
+hr{
+  display: block;
+  clear: both;
+}
+
+
+
+.main-card{
+  padding: 40px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 60px auto auto auto;
+  padding: 10px;
+  width: 250px;
+  border-radius: 5%;
+}
+
+.main-image{
+  text-align: center;
+}
+
+.ethereum-image{
+  border-radius: 5%;
+  height: 240px;
+  width: 240px;
+}
+
+.ethereum-image:hover{
+  opacity: 50%;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.about{
+  color: hsl(215, 51%, 70%);
+  margin: 10px;
+  font-size: 0.8rem;
+}
+
+.ethereum-icon{
+  margin: 10px 10px;
+  float: left;
+}
+
+.clock-icon{
+  margin: 10px 1px;
+  float: left;
+}
+
+.price{
+  color: hsl(178, 100%, 50%);
+  display: inline-block;
+  margin: 17px 10px 20px 0;
+}
+.time{
+  color: hsl(215, 51%, 70%);
+  display: inline-block;
+  margin: 15px 10px 20px 5px;
+}
+
+.avatar{
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+
+.left{
+  float: left;
+  display: inline;
+  text-align: left;
+}
+.right{
+  float: right;
+  display: inline;
+  text-align: right;
+}
+
+.Creation{
+  /* display: flex; */
+  color: hsl(215, 51%, 70%);
+  margin: 20px 20px 0;
+}
+
+.name{
+  color: white;
+}
+
+.name:hover{
+  color: hsl(178, 100%, 50%);
+}
